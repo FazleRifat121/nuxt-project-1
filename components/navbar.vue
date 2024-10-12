@@ -25,7 +25,7 @@
           >
             <li><NuxtLink to="/">Home </NuxtLink></li>
 
-            <li><NuxtLink to="/">About </NuxtLink></li>
+            <li><NuxtLink to="/about">About </NuxtLink></li>
           </ul>
         </div>
         <NuxtLink class="btn btn-ghost text-xl">daisyUI</NuxtLink>
@@ -34,7 +34,7 @@
         <ul class="menu menu-horizontal px-1">
           <li><NuxtLink to="/">Home </NuxtLink></li>
 
-          <li><NuxtLink to="/">About </NuxtLink></li>
+          <li><NuxtLink to="/about">About </NuxtLink></li>
         </ul>
       </div>
       <div class="navbar-end">
