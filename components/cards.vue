@@ -7,9 +7,9 @@
       <div class="card-body">
         <h2 class="card-title">{{ product.title }}</h2>
 
-        <p>If a dog chews shoes, whose shoes does he choose?</p>
+        <p>{{ description }}</p>
         <div class="card-actions justify-end">
-          <button class="btn btn-primary">Buy Now</button>
+          <button class="btn btn-primary">Details</button>
         </div>
       </div>
     </div>
@@ -18,7 +18,9 @@
 
 <script setup>
 const { product } = defineProps(["product"]);
-console.log(product.title);
+const description =
+  product.description.slice(0, 10) +
+  (product.description.length > 10 ? "..." : "");
 </script>
 
 <style scoped></style>

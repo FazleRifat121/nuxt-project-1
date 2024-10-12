@@ -28,7 +28,7 @@
             <li><NuxtLink to="/about">About </NuxtLink></li>
           </ul>
         </div>
-        <NuxtLink class="btn btn-ghost text-xl">daisyUI</NuxtLink>
+        <NuxtLink class="btn btn-ghost text-xl">Hello</NuxtLink>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
